@@ -301,7 +301,7 @@ export default function Home() {
               </h2>
 
               <p className="text-slate-300 text-sm sm:text-base leading-relaxed">
-                Looking for SDE / Full Stack Developer roles • Available to start immediately
+                Looking for Internships • Available to start immediately
               </p>
 
               <p className="text-slate-400 text-sm flex items-center gap-2">
