@@ -301,7 +301,7 @@ export default function Home() {
               </h2>
 
               <p className="text-slate-300 text-sm sm:text-base leading-relaxed">
-                Looking for Internships • Available to start immediately
+                Looking for SDE / Full Stack Developer roles • Available to start immediately
               </p>
 
               <p className="text-slate-400 text-sm flex items-center gap-2">
@@ -437,6 +437,63 @@ export default function Home() {
         </section>
 
       </main>
+
+      {/* Footer */}
+      <footer className="relative z-10 mt-32 border-t border-slate-800/60 bg-[#02050e]/80 backdrop-blur-md py-12">
+        <div className="max-w-6xl mx-auto px-6 flex flex-col items-center gap-6">
+          
+          <nav className="flex flex-wrap items-center justify-center gap-8 text-sm font-medium text-slate-400">
+            <a href="#about" className="hover:text-cyan-400 transition-colors">
+              About
+            </a>
+            <a href="#education" className="hover:text-cyan-400 transition-colors">
+              Education
+            </a>
+            <a href="#projects" className="hover:text-cyan-400 transition-colors">
+              Projects
+            </a>
+            <a href="#contact" className="hover:text-cyan-400 transition-colors">
+              Contact
+            </a>
+          </nav>
+
+          <div className="flex items-center gap-5 text-slate-400">
+            <a
+              href="https://www.linkedin.com/in/srivarsha-puppala-365a3a33b/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn"
+              className="hover:text-cyan-400 transition-colors"
+            >
+              <LinkedinIcon size={19} />
+            </a>
+
+            <a
+              href="https://github.com/Srivarsha-puppala"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="GitHub"
+              className="hover:text-white transition-colors"
+            >
+              <GithubIcon size={19} />
+            </a>
+
+            <a
+              href="mailto:srivarshapuppala02@gmail.com"
+              aria-label="Email"
+              className="hover:text-cyan-400 transition-colors"
+            >
+              <Mail size={19} />
+            </a>
+          </div>
+
+          <p className="text-xs text-slate-500 font-light tracking-wide">
+            © {new Date().getFullYear()} Srivarsha Puppala. All Rights Reserved.
+          </p>
+
+        </div>
+      </footer>
+
     </div>
   );
 }
